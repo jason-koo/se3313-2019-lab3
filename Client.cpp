@@ -40,8 +40,7 @@ public:
 
 		// Get the response
 		socket.Read(data);
-		data_str = data.ToString();
-		std::cout << "Server Response: " << data_str << std::endl;
+		//...
 		return 0;
 	}
 };
